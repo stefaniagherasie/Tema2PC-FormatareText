@@ -4,10 +4,11 @@
 Programul simuleaza formatarea unui plain text prin aplicarea diferitelor operatii (Center, Justify, Align, Wrap , List)
 Enunt: https://ocw.cs.pub.ro/courses/programare/teme_2018/tema2_2018_cbd
 
-Rulare:   make run ARGS='"W 50, C 0 0, L1" in.txt out.txt'
+RULARE:   make run ARGS='"W 50, C 0 0, L1" in.txt out.txt'
   - primul argument reprezintă un șir de caractere care indică operațiile (separate prin virgulă)
   - al doilea argument este calea către fișierul de intrare
   - al treilea argument este numele fișierului formatat care va fi generat
+
 
 
 WRAP text     W max_line_length
@@ -24,5 +25,3 @@ ALIGN RIGHT   R [start_line [end_line]]
 
 JUSTIFY       J [start_line [end_line]]
   Operația justify folosește ca referință cea mai lungă linie din fișier și distribuie în mod echilibrat spații în interiorul liniilor mai scurte pentru ca acestea să ajungă la aceeași lungime și să fie aliniate atât la dreapta, cât și la stânga.
-       
-      

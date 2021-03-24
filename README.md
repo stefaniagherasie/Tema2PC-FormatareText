@@ -16,14 +16,14 @@ Enunt: https://ocw.cs.pub.ro/courses/programare/teme_2018/tema2_2018_cbd
 - WRAP text    (**W max_line_length**) <br>
     Operația wrap adaugă și elimină caractere newline din text astfel încât textul să se încadreze în max_line_length (să aibă lungimea - în octeți - mai mică sau egală), fără a permite linii prea scurte (în afara ultimei linii dintr-un paragraf) și fără a trunchia cuvintele.
 
-CENTER Text   (**C [start_line [end_line]]**) <br>
+- CENTER Text   (**C [start_line [end_line]]**) <br>
     Operația center folosește ca referință cea mai lungă linie din fișier (fără trailing whitespace) și adaugă spații la începutul liniilor care sunt mai scurte pentru a le centra.
   
-ALIGN LEFT    (**L [start_line [end_line]]**) <br>
+- ALIGN LEFT    (**L [start_line [end_line]]**) <br>
     Operația align left aliniază liniile precizate la marginea din stânga.
 
-ALIGN RIGHT   (**R [start_line [end_line]]**) <br>
+- ALIGN RIGHT   (**R [start_line [end_line]]**) <br>
     Operația align right aliniază liniile precizate la marginea din dreapta.
 
-JUSTIFY       (**J [start_line [end_line]]**)  <br>
+- JUSTIFY       (**J [start_line [end_line]]**)  <br>
     Operația justify folosește ca referință cea mai lungă linie din fișier și distribuie în mod echilibrat spații în interiorul liniilor mai scurte pentru ca acestea să ajungă la aceeași lungime și să fie aliniate atât la dreapta, cât și la stânga.

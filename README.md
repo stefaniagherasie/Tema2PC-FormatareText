@@ -11,7 +11,6 @@ Enunt: https://ocw.cs.pub.ro/courses/programare/teme_2018/tema2_2018_cbd
   - al doilea argument este calea către fișierul de intrare
   - al treilea argument este numele fișierului formatat care va fi generat
 
-
 #### ORGANIZARE
 - WRAP text    (**W max_line_length**) <br>
     Operația wrap adaugă și elimină caractere newline din text astfel încât textul să se încadreze în max_line_length (să aibă lungimea - în octeți - mai mică sau egală), fără a permite linii prea scurte (în afara ultimei linii dintr-un paragraf) și fără a trunchia cuvintele.

@@ -6,10 +6,12 @@ Enunt: https://ocw.cs.pub.ro/courses/programare/teme_2018/tema2_2018_cbd
 
 
 #### RULARE
-        make run ARGS='"W 50, C 0 0, L1" in.txt out.txt'
-  - primul argument reprezintă un șir de caractere care indică operațiile (separate prin virgulă)
-  - al doilea argument este calea către fișierul de intrare
-  - al treilea argument este numele fișierului formatat care va fi generat
+> ```shell
+>    make run ARGS='"W 50, C 0 0, L1" in.txt out.txt'
+> ```
+>  - primul argument reprezintă un șir de caractere care indică operațiile (separate prin virgulă)
+>  - al doilea argument este calea către fișierul de intrare
+>  - al treilea argument este numele fișierului formatat care va fi generat
 
 #### ORGANIZARE
 - WRAP text    (**W max_line_length**) <br>
